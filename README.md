@@ -3,13 +3,19 @@
 ### Android (Kotlin & Compose) • iOS (Swift & SwiftUI) Developer
 Building native mobile applications with modern frameworks.
 
-## 🌐 Technical Contact & Links
-<a href="https://linkedin.com/in/chirag-jadav-71ab34273/" target="_blank">
-  <img src="./assets/linkedin.png" alt="LinkedIn" width="40" height="40" style="max-width: 100%;" />
-</a>
-<a href="mailto:jchirag2000@gmail.com">
-  <img src="./assets/gmail.png" alt="Email" width="40" height="40" style="max-width: 100%;" />
-</a>
-<a href="https://leetcode.com/u/chiragjadav00/" target="_blank">
-  <img src="./assets/leetcode.png" alt="LeetCode" width="40" height="40" style="max-width: 100%;" />
-</a>
+### Technical Skills
+
+| Category | Technologies & Frameworks |
+| :--- | :--- |
+| **Architecture** | Clean Architecture, MVVM-Model-View-ViewModel, MVC-Model-View-Controller, UDF-Unidirectional-Data-Flow, Offline-First |
+| **Android Development** | Kotlin, Jetpack Compose, Coroutines, Flow, Serialization, Dagger-Hilt/Koin Dependency Injection, Room Database, SQLite, Work Manager, GoogleMaps SDK, Google AdMob SDK, Play Billing, Unit Testing with JUnit-Mockito, UI Automated Testing with Espresso-Robolectric |
+| **iOS Development** | Swift, SwiftUI, UserDefaults, Codable, SwiftData, Task/Async/Await, CoreImage, Apple Maps |
+| **Cross-Platform & Tools** | Git, REST APIs, Firebase-Firestore-RealtimeDatabase-Storage-RemoteConfig-Cloud-Messaging |
+| **Problem Solving** | Data Structures & Algorithms (DSA), SOLID Desing Principles |
+
+### Technical Contact & Links
+| Platform | Link |
+| :--- | :--- |
+| **Professional** | [LinkedIn](https://linkedin.com/in/chirag-jadav-71ab34273/) |
+| **Direct** | [Email](mailto:jchirag2000@gmail.com) |
+| **Coding** | [LeetCode](https://leetcode.com/u/chiragjadav00/) |
