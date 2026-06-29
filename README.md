@@ -1,4 +1,4 @@
-## Hi there 👋 I am Jadav Chirag.
+## Hi there 👋 I am Chirag Jadav.
 
 ### Android (Kotlin & Compose) • iOS (Swift & SwiftUI) Developer
 Building native mobile applications with modern frameworks.
@@ -11,7 +11,6 @@ Building native mobile applications with modern frameworks.
 | **Android Development** | Kotlin, Jetpack Compose, Coroutines, Flow, Serialization, Dagger-Hilt/Koin Dependency Injection, Room Database, SQLite, Work Manager, GoogleMaps SDK, Google AdMob SDK, Play Billing, Unit Testing with JUnit-Mockito, UI Automated Testing with Espresso-Robolectric |
 | **iOS Development** | Swift, SwiftUI, UserDefaults, Codable, SwiftData, Task/Async/Await, CoreImage, Apple Maps |
 | **Cross-Platform & Tools** | Git, REST APIs, Firebase-Firestore-RealtimeDatabase-Storage-RemoteConfig-Cloud-Messaging |
-| **Problem Solving** | Data Structures & Algorithms (DSA), SOLID Desing Principles |
 
 ### Technical Contact & Links
 | Platform | Link |
