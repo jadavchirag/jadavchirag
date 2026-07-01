@@ -15,7 +15,7 @@ graph TB
     direction TB
     subgraph :feature:child:onboarding
       direction TB
-      :feature:child:onboarding:api[api]:::android-library
+      :feature:child:onboarding:api[api]:::android-feature
     end
   end
   subgraph :core

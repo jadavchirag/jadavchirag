@@ -15,16 +15,16 @@ graph TB
     direction TB
     subgraph :feature:child:home
       direction TB
-      :feature:child:home:api[api]:::android-library
-      :feature:child:home:impl[impl]:::android-library
+      :feature:child:home:api[api]:::android-feature
+      :feature:child:home:impl[impl]:::android-feature
     end
     subgraph :feature:child:accessibility
       direction TB
-      :feature:child:accessibility:api[api]:::android-library
+      :feature:child:accessibility:api[api]:::android-feature
     end
     subgraph :feature:child:youtube
       direction TB
-      :feature:child:youtube:api[api]:::android-library
+      :feature:child:youtube:api[api]:::android-feature
     end
   end
   subgraph :core
@@ -37,7 +37,7 @@ graph TB
     direction TB
     subgraph :feature:common:auth
       direction TB
-      :feature:common:auth:api[api]:::android-library
+      :feature:common:auth:api[api]:::android-feature
     end
   end
   subgraph :core

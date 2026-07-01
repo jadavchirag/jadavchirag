@@ -15,12 +15,12 @@ graph TB
     direction TB
     subgraph :feature:parent:single-child
       direction TB
-      :feature:parent:single-child:api[api]:::android-library
-      :feature:parent:single-child:impl[impl]:::android-library
+      :feature:parent:single-child:api[api]:::android-feature
+      :feature:parent:single-child:impl[impl]:::android-feature
     end
     subgraph :feature:parent:subscription
       direction TB
-      :feature:parent:subscription:api[api]:::android-library
+      :feature:parent:subscription:api[api]:::android-feature
     end
   end
   subgraph :core
@@ -33,7 +33,7 @@ graph TB
     direction TB
     subgraph :feature:common:youtube
       direction TB
-      :feature:common:youtube:api[api]:::android-library
+      :feature:common:youtube:api[api]:::android-feature
     end
   end
   subgraph :core

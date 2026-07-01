@@ -15,12 +15,12 @@ graph TB
     direction TB
     subgraph :feature:child:onboarding
       direction TB
-      :feature:child:onboarding:api[api]:::android-library
-      :feature:child:onboarding:impl[impl]:::android-library
+      :feature:child:onboarding:api[api]:::android-feature
+      :feature:child:onboarding:impl[impl]:::android-feature
     end
     subgraph :feature:child:home
       direction TB
-      :feature:child:home:api[api]:::android-library
+      :feature:child:home:api[api]:::android-feature
     end
   end
   subgraph :core
@@ -49,7 +49,7 @@ graph TB
     direction TB
     subgraph :feature:common:add-child
       direction TB
-      :feature:common:add-child:api[api]:::android-library
+      :feature:common:add-child:api[api]:::android-feature
     end
   end
 

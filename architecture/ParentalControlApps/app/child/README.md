@@ -28,50 +28,50 @@ graph TB
     direction TB
     subgraph :feature:common:add-child
       direction TB
-      :feature:common:add-child:api[api]:::android-library
-      :feature:common:add-child:impl[impl]:::android-library
+      :feature:common:add-child:api[api]:::android-feature
+      :feature:common:add-child:impl[impl]:::android-feature
     end
     subgraph :feature:common:auth
       direction TB
-      :feature:common:auth:api[api]:::android-library
-      :feature:common:auth:impl[impl]:::android-library
+      :feature:common:auth:api[api]:::android-feature
+      :feature:common:auth:impl[impl]:::android-feature
     end
     subgraph :feature:common:youtube
       direction TB
-      :feature:common:youtube:api[api]:::android-library
-      :feature:common:youtube:impl[impl]:::android-library
+      :feature:common:youtube:api[api]:::android-feature
+      :feature:common:youtube:impl[impl]:::android-feature
     end
   end
   subgraph :feature:child
     direction TB
     subgraph :feature:child:onboarding
       direction TB
-      :feature:child:onboarding:api[api]:::android-library
-      :feature:child:onboarding:impl[impl]:::android-library
+      :feature:child:onboarding:api[api]:::android-feature
+      :feature:child:onboarding:impl[impl]:::android-feature
     end
     subgraph :feature:child:home
       direction TB
-      :feature:child:home:api[api]:::android-library
-      :feature:child:home:impl[impl]:::android-library
+      :feature:child:home:api[api]:::android-feature
+      :feature:child:home:impl[impl]:::android-feature
     end
     subgraph :feature:child:accessibility
       direction TB
-      :feature:child:accessibility:api[api]:::android-library
-      :feature:child:accessibility:impl[impl]:::android-library
+      :feature:child:accessibility:api[api]:::android-feature
+      :feature:child:accessibility:impl[impl]:::android-feature
     end
     subgraph :feature:child:youtube
       direction TB
-      :feature:child:youtube:api[api]:::android-library
-      :feature:child:youtube:impl[impl]:::android-library
+      :feature:child:youtube:api[api]:::android-feature
+      :feature:child:youtube:impl[impl]:::android-feature
     end
   end
   subgraph :feature
     direction TB
     subgraph :feature:child
       direction TB
-      :feature:child:calls-messages[calls-messages]:::android-library
+      :feature:child:calls-messages[calls-messages]:::android-feature
       :feature:child:location[location]:::android-library
-      :feature:child:vpn[vpn]:::android-library
+      :feature:child:vpn[vpn]:::android-feature
     end
   end
   subgraph :sync

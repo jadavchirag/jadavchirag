@@ -15,7 +15,7 @@ graph TB
     direction TB
     subgraph :feature:child
       direction TB
-      :feature:child:vpn[vpn]:::android-library
+      :feature:child:vpn[vpn]:::android-feature
     end
   end
   subgraph :core

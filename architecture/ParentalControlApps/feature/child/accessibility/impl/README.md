@@ -15,8 +15,8 @@ graph TB
     direction TB
     subgraph :feature:child:accessibility
       direction TB
-      :feature:child:accessibility:api[api]:::android-library
-      :feature:child:accessibility:impl[impl]:::android-library
+      :feature:child:accessibility:api[api]:::android-feature
+      :feature:child:accessibility:impl[impl]:::android-feature
     end
   end
   subgraph :core

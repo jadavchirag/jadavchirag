@@ -15,8 +15,8 @@ graph TB
     direction TB
     subgraph :feature:common:auth
       direction TB
-      :feature:common:auth:api[api]:::android-library
-      :feature:common:auth:impl[impl]:::android-library
+      :feature:common:auth:api[api]:::android-feature
+      :feature:common:auth:impl[impl]:::android-feature
     end
   end
   subgraph :core

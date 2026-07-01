@@ -15,8 +15,8 @@ graph TB
     direction TB
     subgraph :feature:parent:subscription
       direction TB
-      :feature:parent:subscription:api[api]:::android-library
-      :feature:parent:subscription:impl[impl]:::android-library
+      :feature:parent:subscription:api[api]:::android-feature
+      :feature:parent:subscription:impl[impl]:::android-feature
     end
   end
   subgraph :core
@@ -39,6 +39,7 @@ graph TB
   :core:ui -.-> :core:domain:common
   :feature:parent:subscription:api --> :core:navigation
   :feature:parent:subscription:impl -.-> :core:designsystem
+  :feature:parent:subscription:impl -.-> :core:domain:common
   :feature:parent:subscription:impl -.-> :core:domain:parent
   :feature:parent:subscription:impl -.-> :core:navigation
   :feature:parent:subscription:impl -.-> :core:ui

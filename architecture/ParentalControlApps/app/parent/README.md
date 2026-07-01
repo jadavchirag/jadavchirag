@@ -28,41 +28,41 @@ graph TB
     direction TB
     subgraph :feature:common:add-child
       direction TB
-      :feature:common:add-child:api[api]:::android-library
-      :feature:common:add-child:impl[impl]:::android-library
+      :feature:common:add-child:api[api]:::android-feature
+      :feature:common:add-child:impl[impl]:::android-feature
     end
     subgraph :feature:common:youtube
       direction TB
-      :feature:common:youtube:api[api]:::android-library
-      :feature:common:youtube:impl[impl]:::android-library
+      :feature:common:youtube:api[api]:::android-feature
+      :feature:common:youtube:impl[impl]:::android-feature
     end
     subgraph :feature:common:auth
       direction TB
-      :feature:common:auth:api[api]:::android-library
-      :feature:common:auth:impl[impl]:::android-library
+      :feature:common:auth:api[api]:::android-feature
+      :feature:common:auth:impl[impl]:::android-feature
     end
   end
   subgraph :feature:parent
     direction TB
     subgraph :feature:parent:intro
       direction TB
-      :feature:parent:intro:api[api]:::android-library
-      :feature:parent:intro:impl[impl]:::android-library
+      :feature:parent:intro:api[api]:::android-feature
+      :feature:parent:intro:impl[impl]:::android-feature
     end
     subgraph :feature:parent:home
       direction TB
-      :feature:parent:home:api[api]:::android-library
-      :feature:parent:home:impl[impl]:::android-library
+      :feature:parent:home:api[api]:::android-feature
+      :feature:parent:home:impl[impl]:::android-feature
     end
     subgraph :feature:parent:single-child
       direction TB
-      :feature:parent:single-child:api[api]:::android-library
-      :feature:parent:single-child:impl[impl]:::android-library
+      :feature:parent:single-child:api[api]:::android-feature
+      :feature:parent:single-child:impl[impl]:::android-feature
     end
     subgraph :feature:parent:subscription
       direction TB
-      :feature:parent:subscription:api[api]:::android-library
-      :feature:parent:subscription:impl[impl]:::android-library
+      :feature:parent:subscription:api[api]:::android-feature
+      :feature:parent:subscription:impl[impl]:::android-feature
     end
   end
   subgraph :core

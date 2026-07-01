@@ -15,8 +15,8 @@ graph TB
     direction TB
     subgraph :feature:child:youtube
       direction TB
-      :feature:child:youtube:api[api]:::android-library
-      :feature:child:youtube:impl[impl]:::android-library
+      :feature:child:youtube:api[api]:::android-feature
+      :feature:child:youtube:impl[impl]:::android-feature
     end
   end
   subgraph :core
@@ -29,7 +29,7 @@ graph TB
     direction TB
     subgraph :feature:common:youtube
       direction TB
-      :feature:common:youtube:api[api]:::android-library
+      :feature:common:youtube:api[api]:::android-feature
     end
   end
   subgraph :core

@@ -15,7 +15,7 @@ graph TB
     direction TB
     subgraph :feature:child
       direction TB
-      :feature:child:calls-messages[calls-messages]:::android-library
+      :feature:child:calls-messages[calls-messages]:::android-feature
     end
   end
   subgraph :core

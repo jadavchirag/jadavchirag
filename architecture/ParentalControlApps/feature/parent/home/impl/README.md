@@ -15,16 +15,16 @@ graph TB
     direction TB
     subgraph :feature:parent:home
       direction TB
-      :feature:parent:home:api[api]:::android-library
-      :feature:parent:home:impl[impl]:::android-library
+      :feature:parent:home:api[api]:::android-feature
+      :feature:parent:home:impl[impl]:::android-feature
     end
     subgraph :feature:parent:single-child
       direction TB
-      :feature:parent:single-child:api[api]:::android-library
+      :feature:parent:single-child:api[api]:::android-feature
     end
     subgraph :feature:parent:subscription
       direction TB
-      :feature:parent:subscription:api[api]:::android-library
+      :feature:parent:subscription:api[api]:::android-feature
     end
   end
   subgraph :core
@@ -53,11 +53,11 @@ graph TB
     direction TB
     subgraph :feature:common:add-child
       direction TB
-      :feature:common:add-child:api[api]:::android-library
+      :feature:common:add-child:api[api]:::android-feature
     end
     subgraph :feature:common:auth
       direction TB
-      :feature:common:auth:api[api]:::android-library
+      :feature:common:auth:api[api]:::android-feature
     end
   end
   subgraph :sync

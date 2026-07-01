@@ -15,7 +15,7 @@ graph TB
     direction TB
     subgraph :feature:parent:single-child
       direction TB
-      :feature:parent:single-child:api[api]:::android-library
+      :feature:parent:single-child:api[api]:::android-feature
     end
   end
   subgraph :core
